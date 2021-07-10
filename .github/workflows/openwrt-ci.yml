@@ -221,7 +221,9 @@ jobs:
           # CONFIG_PACKAGE_uugamebooster is not set
           CONFIG_PACKAGE_vsftpd-alt=y
           # CONFIG_PACKAGE_wol is not set
-          CONFIG_DEFAULT_luci-app-qbittorrent=n
+          # CONFIG_PACKAGE_luci-app-qbittorrent is not set
+          # CONFIG_PACKAGE_luci-i18n-qbittorrent-zh-cn is not set
+          # CONFIG_PACKAGE_qBittorrent-static is not set
           EOF
           # CONFIG_PACKAGE_xfrm is not set
           CONFIG_VSFTPD_USE_UCI_SCRIPTS=y
